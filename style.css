@@ -1,0 +1,617 @@
+body {
+    margin: 0;
+    max-width: 1440px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 105px;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    background-image: url("assets/background.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 90%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+
+}
+
+
+.buttons {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 11px;
+}
+
+.nav-button {
+    border: none;
+    font-size: 16px;
+    opacity: 40%;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    left: -80px;
+}
+
+.signin {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: -80px;
+    width: 15%;
+    padding-top: 13px;
+    font-size: 13px;
+
+}
+
+.signin-button {
+    width: fit-contents;
+    opacity: 40%;
+    height: 50%;
+    border: none;
+    color: rgba(38, 43, 54, 1);
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.signin-button-start {
+    width: fit-contents;
+    opacity: 40%;
+    height: 50%;
+    border: none;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(58, 207, 110, 1);
+
+}
+
+.hero {
+    margin-top: 30px;
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    height: 410px;
+}
+
+.hero-details {
+    width: 55%;
+
+}
+
+.hero-span {
+    color: rgba(58, 207, 110, 1);
+}
+
+.hero-info {
+    opacity: 1;
+    color: rgba(255, 255, 255, 1);
+    font-size: 55px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 74px;
+    margin-bottom: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.info {
+    opacity: 1;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 32px;
+    width: 90%;
+
+
+}
+
+.details {
+    display: inline-block;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+}
+
+.main-buttons {
+    margin-top: 50px;
+    width: 22%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.get-started-button {
+    padding: 16px 31px;
+    border-radius: 5px;
+    opacity: 1;
+    background-color: rgba(58, 207, 110, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.learn-more-button {
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.second-image {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+}
+
+.hero-dots1 {
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    right: 110px;
+    bottom: -10px;
+}
+
+.hero-dots2 {
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    right: 110px;
+    bottom: -190px;
+}
+
+.features-info {
+    margin-top: 450px;
+    margin-bottom: 120px;
+    opacity: 1;
+    color: rgba(96, 107, 134, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 32px;
+    width: 70%;
+}
+
+.features-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 250px;
+}
+
+.features-details {
+    width: 70%;
+    padding-left: 80px;
+}
+
+.features-main-pic {
+    padding-top: 100px;
+    padding-left: 10px;
+}
+
+.features-details-info h3 {
+    color: rgba(32, 83, 209, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 10px;
+}
+
+.features-details-info h2 {
+    color: rgba(38, 43, 54, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.features-details-info p {
+    color: rgba(96, 107, 134, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 28px;
+    width: 75%;
+}
+
+.features-details-pics1 {
+    padding-bottom: 40px;
+}
+
+.update {
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+}
+
+.update-main {
+    z-index: 2;
+}
+
+.update-main-pic {
+    margin-top: -100px;
+    margin-left: -45px;
+    margin-right: 0px;
+}
+
+.update-info {
+    margin-left: 100px;
+}
+
+.update-info h3 {
+    color: rgba(32, 83, 209, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    width: 100%;
+}
+
+.update-info h2 {
+    color: rgba(38, 43, 54, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    width: 60%;
+    line-height: 64px;
+}
+
+.update-dots {
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -110px;
+}
+
+.update-pics {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    background-image: url(assets/blue.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+.update-pic {
+    margin-top: 100px;
+    width: 60%;
+}
+
+.update-pic img {
+    margin-bottom: 50px;
+}
+
+.after-update-dots {
+    margin-top: -50px;
+}
+
+.services-testimonials {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(236, 240, 247, 1) 100%);
+}
+
+.services {
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.services-info {
+    text-align: center;
+}
+
+.services-info h3 {
+    color: rgba(32, 83, 209, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    width: 100%;
+}
+
+.services-info h2 {
+    color: rgba(38, 43, 54, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    width: 100%;
+    line-height: 64px;
+}
+
+.services-info p {
+    opacity: 1;
+    color: rgba(96, 107, 134, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.services-pic {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.services-tabs {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.service-tab {
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 24px rgba(0, 0, 0, 0.08);
+    margin: 25px;
+    height: 20%;
+}
+
+.service-tab h3 {
+    color: rgba(38, 43, 54, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 32px;
+    padding-top: 20px;
+
+}
+
+.service-tab img {
+    size: 100%;
+}
+
+.testimonials {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.testimonials-info {
+    text-align: center;
+}
+
+.testimonials-info h3 {
+    color: rgba(32, 83, 209, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    width: 100%;
+}
+
+.testimonials-info h2 {
+    color: rgba(38, 43, 54, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    width: 40%;
+    line-height: 64px;
+    margin: auto;
+}
+
+.testimonials-slider {
+    width: fit-content;
+    margin: 50px auto;
+}
+
+.test-2 {
+    margin-left: -40px;
+}
+
+.contact {
+    margin: 120px;
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-info {
+    width: 45%;
+}
+
+.contact-info h3 {
+    color: rgba(32, 83, 209, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    width: 100%;
+    margin-bottom: -20px;
+}
+
+.contact-info h2 {
+    color: rgba(38, 43, 54, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    width: 70%;
+    line-height: 64px;
+    margin-bottom: 50px;
+}
+
+.contact-form a {
+    padding: 16px 31px;
+    border-radius: 5px;
+    background-color: rgba(58, 207, 110, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    width: 25%;
+    margin-top: 30px;
+}
+
+.contact-form {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+}
+
+label,
+input,
+textarea,
+select {
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+input,
+textarea,
+select {
+    border: 2px solid;
+    border-color: #CCCCCC;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.footer {
+    margin: 100px;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer h2 {
+    font-weight: 400;
+}
+
+.siphome {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    color: rgba(38, 43, 54, 1);
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.siphome img {
+    width: 55%;
+}
+
+.navigation {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navigation .feature {
+    color: #2053D1;
+}
+
+.about {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.stay-connected {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.stay-connected img {
+    width: 30px;
+    height: 30px;
+}
+
+.facebook {
+    display: flex;
+}
+
+.facebook img {
+    padding-top: 9px;
+    padding-right: 20px;
+}
+
+.twitter {
+    display: flex;
+}
+
+.twitter img {
+    padding-top: 9px;
+    padding-right: 20px;
+}
+
+.instagram {
+    display: flex;
+}
+
+.instagram img {
+    padding-top: 9px;
+    padding-right: 20px;
+}
+
+.footer a {
+    opacity: 1;
+    color: rgba(96, 107, 134, 1);
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 48px;
+}
+.credits{
+    margin-bottom: 30px;
+    width: 100%;
+}
+.credits h3{
+    width: 100%;
+    margin: auto;
+    color: rgba(38, 43, 54, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 28px;
+}
